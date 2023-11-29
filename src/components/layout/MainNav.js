@@ -93,7 +93,8 @@ const MainNav = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
       <div className="container ">
-        <Link className="navbar-brand " to="/">
+        <Link className="navbar-brand" style={{color:'dark'}} to="/">
+          {/* J<span className="logo">4</span>U */}
           J<span className="logo">4</span>U
         </Link>
         <button
